@@ -1,0 +1,35 @@
+PS C:\Users\user\Desktop\m\git github> git add *.html
+PS C:\Users\user\Desktop\m\git github> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\user\Desktop\m\git github> git add . 
+PS C:\Users\user\Desktop\m\git github> git commit -m 'still on day'                                
+[master (root-commit) 8eff2ff] still on day
+ 3 files changed, 11 insertions(+)
+ create mode 100644 one.css
+ create mode 100644 one.html
+ create mode 100644 one.txt
+PS C:\Users\user\Desktop\m\git github> git status
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\user\Desktop\m\git github> git push -u origin main
+git push -u origin master
+
+git branch -M main
+git push -u origin main
+
+git remote add origin https://github.com/Mandeep-gupta/day-1.git
+
+to change origin -----> git remote set-url origin
+
+
+git init
+git remote add origin <repository_url>
+git branch -M main
+git add .
+git commit -m 'Your commit message here!'
+git status
+git push -u origin main
+
